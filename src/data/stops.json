@@ -86,10 +86,10 @@
     "id": 5,
     "slug": "julius-sundblom",
     "title": { "sv": "Julius Sundblom: Ålandskungen", "en": "Julius Sundblom: King of Åland" },
-    "lat": 60.0974,
-    "lng": 19.9421,
-    "confidence": "estimated",
-    "mapHint": "Norra Esplanadgatan, just west of the Torggatan corner — search \"Julius Sundblom staty Mariehamn\"",
+    "lat": 60.097562,
+    "lng": 19.943312,
+    "confidence": "confirmed",
+    "mapHint": "3WXV+28 Mariehamn — confirmed on site by Zander",
     "text": {
       "sv": [
         "Julius Sundblom är känd för att ha grundat Ålands äldsta tidning år 1891, delvis som en kamp mot hotet av förfinskningen och förryskningen. Hans politiska CV är lång och imponerande. Men han är mest känd för sin roll i Ålandsrörelsen. Den 20 augusti 1917 samlades kommunalmän från alla faståländska kommuner (utom Lumparland) och de beslutade enhälligt att Åland skulle lämna in en begäran om återförening med Sverige till Sveriges kung och regering. Sundblom själv var först tveksam till en återförening, men inbördeskriget och dess följder gjorde honom säker på det. Han använde sin tidning att lobba för Ålandsrörelsen, och efter två namninsamlingar kunde man konstatera att en klar majoritet var för.",
@@ -128,10 +128,10 @@
     "id": 7,
     "slug": "ge-villan",
     "title": { "sv": "GE-villan: Internationella kontakter", "en": "The GE-Villa: International contacts" },
-    "lat": 60.0974,
-    "lng": 19.9402,
-    "confidence": "estimated",
-    "mapHint": "Corner of Norra Esplanadgatan and Ålandsvägen — search \"GE-villan Mariehamn\"",
+    "lat": 60.097538,
+    "lng": 19.938047,
+    "confidence": "confirmed",
+    "mapHint": "3WXQ+267 Mariehamn — confirmed on site by Zander",
     "text": {
       "sv": [
         "Huset är kallad efter Gustav Eriksson, den kända kaptenen och skeppsredaren som bodde där från 1915. Numera är den representationshuset för Landskapsregeringen. Självstyrelsen kräver kontakter. Det är viktigt att bygga upp förståelse för vad vår särlösning innebär, och för vår sedvanerätt gällande demilitariseringen och neutraliseringen.",

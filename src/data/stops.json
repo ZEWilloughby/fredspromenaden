@@ -3,10 +3,10 @@
     "id": 1,
     "slug": "mariero",
     "title": { "sv": "Mariero: fred på jorden, fred med jorden", "en": "Mariero: peace on earth, peace with the earth" },
-    "lat": 60.1001,
-    "lng": 19.9375,
-    "confidence": "estimated",
-    "mapHint": "Nygatan, north-east of the Torggatan crossing — search \"Mariero trädgård Mariehamn\"",
+    "lat": 60.100188,
+    "lng": 19.939938,
+    "confidence": "confirmed",
+    "mapHint": "4W2Q+3X Mariehamn — confirmed on site by Zander",
     "text": {
       "sv": [
         "Fredspromenaden börjar i Mariero. Trädgården kunde ha blivit parkeringsplatser men räddades av Ålands Fredsförening och Ålands Natur och Miljö år 1993. Mer än någonsin behöver vi idag uppmärksamma att ett ekosystem i balans är en grundförutsättning för människans existens. Sedan 2016 har Åland en utvecklings- och hållbarhetsagenda, där visionen om att \"alla kan blomstra i ett bärkraftigt samhälle på fredens öar\" är ledstjärna för arbetet med både fred på jorden och fred med jorden. Begreppet 'fredens öar' hör man ofta om Åland och i Mariero är dessa ord graverad i ett stenbord.",
@@ -44,10 +44,10 @@
     "id": 3,
     "slug": "non-violence",
     "title": { "sv": "Landskapsregeringen: \"Non-violence\"-statyn", "en": "Landskapsregeringen: the \"Non-violence\" statue" },
-    "lat": 60.0968,
-    "lng": 19.9438,
-    "confidence": "estimated",
-    "mapHint": "Corner of Torggatan and Norra Esplanadgatan, outside the Government building (Ålands landskapsregering)",
+    "lat": 60.099139,
+    "lng": 19.944472,
+    "confidence": "confirmed",
+    "mapHint": "60°05'56.9\"N 19°56'40.1\"E — confirmed on site by Zander",
     "text": {
       "sv": [
         "Här har vi en av stadens nyaste utekonstverk: en kopia av svenska konstnären Carl Fredrik Reuterswärds ikoniska statyer. Statyn skapades som en hyllning till John Lennons vision om fred. Just denna kopia såldes på en välgörenhetsauktion där 40 procent av försäljningspriset donerades till förmån för Unicefs arbete i Ukraina.",
@@ -107,10 +107,10 @@
     "id": 6,
     "slug": "bondetaget",
     "title": { "sv": "Bondetåget: ålänningar gör sig hörda", "en": "The Bondetåget: Ålanders make their voices heard" },
-    "lat": 60.0974,
-    "lng": 19.9412,
-    "confidence": "estimated",
-    "mapHint": "Norra Esplanadgatan, between the Torggatan and Ålandsvägen crossings",
+    "lat": 60.097222,
+    "lng": 19.9385,
+    "confidence": "confirmed",
+    "mapHint": "60°05'50.0\"N 19°56'18.6\"E — confirmed on site by Zander",
     "text": {
       "sv": [
         "Ålänningar har en lång historia av fredsarbete. År 1938 var en väldigt osäker tid och Finland och Sverige började diskutera en ändring av demilitariseringen som skulle tillåta en begränsad militarisering av skärgården i söder. Samtidigt ville man i Finland införa värnplikt för ålänningar. Den så kallade Stockholmsplanen var inte särskilt populär lokalt. Med bil, buss och båt åkte folk in till stan den 31a oktober 1938 och samlades för att demonstrera mot planerna. Det sägs at cirka 3 000 personer deltog. Med tanke på att invånarantalet i Mariehamn vid den tiden låg vid cirka 2 500 personer totalt var Bondetåget ett väldigt välbesökt evenemang.",
@@ -168,10 +168,10 @@
     "id": 9,
     "slug": "vastra-esplanaden",
     "title": { "sv": "Esplanaden: En rofylld plats i stadens hjärta", "en": "The Esplanad: A peaceful place in the heart of town" },
-    "lat": 60.0974,
-    "lng": 19.932,
-    "confidence": "estimated",
-    "mapHint": "Norra Esplanadgatan, between S:t Görans kyrka and the Russian Consulate",
+    "lat": 60.096917,
+    "lng": 19.933,
+    "confidence": "confirmed",
+    "mapHint": "60°05'48.9\"N 19°55'58.8\"E — confirmed on site by Zander",
     "text": {
       "sv": [
         "Mariehamn kallas ofta för De Tusen Lindarnas stad efter Georg Kåhres diktsamling från 1928. Mariehamns första stadsplaner inkluderade breda vägar och stora esplanader för att förhindra bränder, men i modern tid när städer blir allt tätare byggda så är dessa områden viktiga ur en hållbarhetssynpunkt. Träden är en kolsänka i sig, men också marken har en viktig funktion att absorbera vatten och reglera temperaturen. Området var från början en våtmark.",
@@ -208,10 +208,10 @@
     "id": 11,
     "slug": "fredsinstitutet",
     "title": { "sv": "Ålands Fredsinstitut", "en": "Åland Islands Peace Institute" },
-    "lat": 60.092856,
-    "lng": 19.929140,
-    "confidence": "estimated",
-    "mapHint": "Hamngatan 5, AX-22100 Mariehamn — confirmed street, exact building number not yet verified",
+    "lat": 60.096188,
+    "lng": 19.927688,
+    "confidence": "confirmed",
+    "mapHint": "5 Hamngatan / 3WWH+F3 Mariehamn — confirmed on site by Zander",
     "text": {
       "sv": [
         "Fredsföreningen grundades år 1981 och bedrev en bred folklig verksamhet med olika kampanjer, läger, möten och upprop. Föreningens arbete, i samband med många andra, ledde till att Fredsinstitutet grundades år 1992. Ibland kan det kännas som att den tid vi lever i är hopplös, att varje person är så liten och att man själv inte kan påverka någonting. Fredsrörelsens aktivitet visar på handlingskraft och hopp. Man samlade likasinnade och organiserade sig. Ålänningar har nog handlingskraft! Tack vare deras insatser har vi ett institut som arbetar på bred front både praktiskt och med forskning rörande fred.",

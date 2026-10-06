@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "slug": "mariero",
+    "lat": 60.100188,
+    "lng": 19.939938,
+    "source": "4W2Q+3X Mariehamn — confirmed on site by Zander"
+  },
+  {
+    "id": 2,
+    "slug": "bagarstugan",
+    "lat": 60.099759,
+    "lng": 19.943048,
+    "source": "Ekonomiegatan 2, Mariehamn — confirmed address (Bagarstugan café)"
+  },
+  {
+    "id": 3,
+    "slug": "non-violence",
+    "lat": 60.099139,
+    "lng": 19.944472,
+    "source": "60°05'56.9\"N 19°56'40.1\"E — confirmed on site by Zander"
+  },
+  {
+    "id": 4,
+    "slug": "stadshusbacken",
+    "lat": 60.096106,
+    "lng": 19.94371,
+    "source": "Mariehamns stadshus, Torggatan 17 — confirmed address"
+  },
+  {
+    "id": 5,
+    "slug": "julius-sundblom",
+    "lat": 60.097562,
+    "lng": 19.943312,
+    "source": "3WXV+28 Mariehamn — confirmed on site by Zander"
+  },
+  {
+    "id": 6,
+    "slug": "bondetaget",
+    "lat": 60.097222,
+    "lng": 19.9385,
+    "source": "60°05'50.0\"N 19°56'18.6\"E — confirmed on site by Zander"
+  },
+  {
+    "id": 7,
+    "slug": "ge-villan",
+    "lat": 60.097538,
+    "lng": 19.938047,
+    "source": "3WXQ+267 Mariehamn — confirmed on site by Zander"
+  },
+  {
+    "id": 8,
+    "slug": "mariehamns-forsamling",
+    "lat": 60.097356,
+    "lng": 19.934808,
+    "source": "S:t Görans kyrka, Östra Esplanadgatan — confirmed address"
+  },
+  {
+    "id": 9,
+    "slug": "vastra-esplanaden",
+    "lat": 60.096917,
+    "lng": 19.933,
+    "source": "60°05'48.9\"N 19°55'58.8\"E — confirmed on site by Zander"
+  },
+  {
+    "id": 10,
+    "slug": "rysslands-konsulat",
+    "lat": 60.097206,
+    "lng": 19.930613,
+    "source": "Norra Esplanadgatan 11, Mariehamn — confirmed address (Consulate of the Russian Federation)"
+  },
+  {
+    "id": 11,
+    "slug": "fredsinstitutet",
+    "lat": 60.096188,
+    "lng": 19.927688,
+    "source": "5 Hamngatan / 3WWH+F3 Mariehamn — confirmed on site by Zander"
+  }
+]

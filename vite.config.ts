@@ -4,6 +4,9 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Relative asset paths, so the build works at a domain root or under a subpath
+  // (e.g. GitHub Pages at /fredspromenaden/). Routing is hash-based, so no rewrites are needed.
+  base: './',
   plugins: [
     react(),
     VitePWA({
@@ -16,7 +19,8 @@ export default defineConfig({
         theme_color: '#2f6f4f',
         background_color: '#fdfcf9',
         display: 'standalone',
-        start_url: '/',
+        start_url: './',
+        scope: './',
         icons: [
           { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icon-512.png', sizes: '512x512', type: 'image/png' },
@@ -26,7 +30,7 @@ export default defineConfig({
       workbox: {
         runtimeCaching: [
           {
-            urlPattern: /^https:\/\/[abc]\.tile\.openstreetmap\.org\/.*/i,
+            urlPattern: /^https:\/\/tile\.openstreetmap\.org\/.*/i,
             handler: 'CacheFirst',
             options: {
               cacheName: 'osm-tiles',

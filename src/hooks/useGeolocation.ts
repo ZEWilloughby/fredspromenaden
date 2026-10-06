@@ -1,27 +1,24 @@
 import { useEffect, useState } from "react";
 
+export type GeoError = "denied" | "unsupported" | "unavailable" | null;
+
 export interface GeoState {
   lat: number | null;
   lng: number | null;
   accuracy: number | null;
-  error: string | null;
-  permission: "prompt" | "granted" | "denied" | "unsupported";
+  error: GeoError;
 }
 
+const INITIAL: GeoState = { lat: null, lng: null, accuracy: null, error: null };
+
 export function useGeolocation(enabled: boolean): GeoState {
-  const [state, setState] = useState<GeoState>({
-    lat: null,
-    lng: null,
-    accuracy: null,
-    error: null,
-    permission: "prompt",
-  });
+  const [state, setState] = useState<GeoState>(INITIAL);
 
   useEffect(() => {
     if (!enabled) return;
     if (!("geolocation" in navigator)) {
-      setState((s) => ({ ...s, permission: "unsupported", error: "Geolocation not supported" }));
-      return;
+      setState({ ...INITIAL, error: "unsupported" });
+      return () => setState(INITIAL);
     }
 
     const watchId = navigator.geolocation.watchPosition(
@@ -31,20 +28,24 @@ export function useGeolocation(enabled: boolean): GeoState {
           lng: pos.coords.longitude,
           accuracy: pos.coords.accuracy,
           error: null,
-          permission: "granted",
         });
       },
       (err) => {
-        setState((s) => ({
-          ...s,
-          error: err.message,
-          permission: err.code === err.PERMISSION_DENIED ? "denied" : s.permission,
-        }));
+        // A timeout or lost signal keeps the last known position; a denial does not.
+        setState((s) =>
+          err.code === err.PERMISSION_DENIED
+            ? { ...INITIAL, error: "denied" }
+            : { ...s, error: "unavailable" }
+        );
       },
       { enableHighAccuracy: true, maximumAge: 5000, timeout: 15000 }
     );
 
-    return () => navigator.geolocation.clearWatch(watchId);
+    // Forget the position when GPS is switched off, so nothing stale lingers on screen.
+    return () => {
+      navigator.geolocation.clearWatch(watchId);
+      setState(INITIAL);
+    };
   }, [enabled]);
 
   return state;

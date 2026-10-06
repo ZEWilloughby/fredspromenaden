@@ -75,10 +75,33 @@
   font-size: 13px;
 }
 
+.map-view {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.map-view[hidden] {
+  display: none;
+}
+
 .map-container {
   width: 100%;
   height: min(60svh, 480px);
   z-index: 0;
+  /* Shown behind the route and pins when tiles can't load offline. */
+  background: #e8e4d8;
+}
+
+@media (prefers-color-scheme: dark) {
+  .map-container {
+    background: #2a2c24;
+  }
+
+  /* Soften the bright OSM tiles so the map doesn't glare in dark mode. */
+  .map-container .leaflet-tile-pane {
+    filter: brightness(0.7) contrast(1.1) saturate(0.85);
+  }
 }
 
 .stop-pin {
@@ -104,6 +127,18 @@
   background: var(--peace-gold);
   color: #1b1b1b;
   transform: scale(1.15);
+}
+
+.notice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+  padding: 10px 16px;
+  font-size: 14px;
 }
 
 .arrival-banner {
@@ -134,6 +169,12 @@
   letter-spacing: 0.04em;
   color: var(--text-muted);
   margin-bottom: 8px;
+}
+
+.stop-list__summary {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 12px;
 }
 
 .stop-list ul {
@@ -191,16 +232,26 @@
   margin: 6px 0 2px;
 }
 
-.stop-detail h1 {
+.stop-detail__title {
   font-size: 24px;
   margin-bottom: 8px;
 }
 
+.stop-detail__title:focus {
+  outline: none;
+}
+
+.stop-detail p.stop-detail__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
 .stop-detail__distance {
-  font-size: 13px;
   color: var(--peace-green);
   font-weight: 600;
-  margin-bottom: 16px;
 }
 
 .stop-detail p {
@@ -218,4 +269,47 @@
   bottom: 0;
   background: var(--bg);
   padding-top: 12px;
+}
+
+.stop-list__name {
+  flex: 1;
+}
+
+.stop-list__item--read .stop-list__num {
+  background: var(--text-muted);
+}
+
+.stop-list__read {
+  color: var(--peace-green);
+  font-weight: 700;
+}
+
+.stop-list__reset {
+  margin-top: 8px;
+  color: var(--text-muted);
+  padding-left: 0;
+}
+
+.about {
+  margin-top: 24px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.about p {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+a {
+  color: var(--peace-green);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
 }
